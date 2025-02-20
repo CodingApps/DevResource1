@@ -1,0 +1,9 @@
+/*
+  This is a global stylesheet for the application.
+  It's imported in _app.tsx and applies styles to the entire application.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
