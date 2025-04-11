@@ -11,4 +11,3 @@ import { PhotoGrid } from "./photo-grid"
 export default function EventPage() {
   // ... (keep the existing component code)
 }
-

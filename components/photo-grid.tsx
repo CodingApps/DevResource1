@@ -60,4 +60,3 @@ export function PhotoGrid({ photos }: PhotoGridProps) {
     </>
   )
 }
-

@@ -68,4 +68,3 @@ export function PhotoModal({ isOpen, onClose, photo }: PhotoModalProps) {
     </div>
   )
 }
-

@@ -128,9 +128,20 @@ export default function EventPage() {
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
-                        <div className="font-medium">AI Tools for Building and Design:</div>
+                        <div className="font-medium">AI Tools for Building and Design Resource:</div>
                         <p className="text-sm text-gray-600">
                           <Link href="/ai-tools-page">🔗 AI Tools for Design, Prototyping and Coding</Link>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">Web A.I. Agent Samples:</div>
+                        <p className="text-sm text-gray-600">
+                          <a target="_blank" href="https://aitoolset.github.io/aihubkayakviews/" rel="noreferrer">
+                            🔗 https://aitoolset.github.io/aihubkayakviews/
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -148,9 +159,9 @@ export default function EventPage() {
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
-                        <div className="font-medium">iOS Swift App : </div>
+                        <div className="font-medium">E-Moto Updates : iOS Swift App </div>
                         <p className="text-sm text-gray-600">
-                          E-Moto Updates{" "}
+                          Electric-Motorcycle Updates{" "}
                           <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">
                             🔗 https://apps.apple.com/sa/app/e-motobike-updates/id1644648261
                           </a>
@@ -186,7 +197,6 @@ export default function EventPage() {
                         </p>
                       </div>
                     </div>
-
                   </div>
                 </div>
                 <div>
@@ -194,7 +204,7 @@ export default function EventPage() {
                 </div>
                 <div className="mb-6">
                   <p className="mb-4">
-                    I also developed Open Source projects for both iOS and Android when possible. Several projects are
+                    Also developed Open Source projects for both iOS and Android when possible. Several projects are
                     here to view, in addition to an Open Source app in the iOS App Store :{" "}
                     <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">"📱 E-Moto Updates"</a>.
                   </p>
@@ -206,7 +216,7 @@ export default function EventPage() {
                   <h2 className="text-lg font-semibold">🌳 Misc About 🌳</h2>
                   <div>
                     <p className="italic">
-                      Also enjoy kayaking, taking in ⚾ MLB games, hiking in various parts of the world and some good 🍲
+                      Enjoy kayaking in the bay, taking in ⚾ MLB games, hiking in various parts of the world and some good 🍲
                       Ramen. When time&apos;s available, orgs I volunteer with and recommend :
                     </p>
                     <p>
@@ -235,7 +245,7 @@ export default function EventPage() {
                   </div>
                   <div>
                     <h3 className="mb-2 font-semibold">💻 AI events and meetups 👀</h3>
-                    <p className="mb-4">Recent events and workshops on emerging innovations:</p>
+                    <p className="mb-4">Recent events and A.I. workshops on emerging innovations:</p>
                     <PhotoGrid photos={photos} />
                   </div>
                 </div>
@@ -252,4 +262,3 @@ export default function EventPage() {
     </div>
   )
 }
-
