@@ -191,7 +191,7 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
-                   {/*  <div className="flex gap-3">
+                    {/*  <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
                         <div className="font-medium">Web A.I. Agent Samples:</div>
@@ -244,7 +244,8 @@ export default function HomePage() {
                   <p className="mb-4">
                     I also developed Open Source projects for both iOS and Android when possible. Several projects are
                     here to view, in addition to an Open Source app in the iOS App Store :{" "}
-                    <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">"📱 E-Moto Updates"</a>.<br />
+                    <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">"📱 E-Moto Updates"</a>.
+                    <br />
                     [GitHub :{" "}
                     <a target="_blank" href="https://github.com/CodingApps/E-BikeUpdatesV1" rel="noreferrer">
                       🔗 https://github.com/CodingApps/E-BikeUpdatesV1
