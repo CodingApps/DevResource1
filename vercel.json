@@ -1,5 +1,3 @@
 {
-  "buildCommand": "rm -rf pages/ai-tools-page.tsx && next build",
-  "ignoreCommand": "if [ -f pages/ai-tools-page.tsx ]; then exit 1; else exit 0; fi",
   "cleanUrls": true
 }
