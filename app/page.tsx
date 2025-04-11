@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { HostSidebar } from "@/components/host-sidebar"
 import { PhotoGrid } from "@/components/photo-grid"
+import Link from "next/link"
 
 const photos = [
   {
@@ -186,7 +187,7 @@ export default function HomePage() {
                       <div>
                         <div className="font-medium">AI Tools for Building and Design Resource:</div>
                         <p className="text-sm text-gray-600">
-                          <a href="/ai-tools-page">🔗 AI Tools for Design, Prototyping and Coding</a>
+                          <Link href="/ai-resources">🔗 AI Tools for Design, Prototyping and Coding</Link>
                         </p>
                       </div>
                     </div>
