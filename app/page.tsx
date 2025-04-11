@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { HostSidebar } from "@/components/host-sidebar"
 import { PhotoGrid } from "@/components/photo-grid"
-import Link from "next/link"
 
 const photos = [
   {
@@ -187,21 +186,10 @@ export default function HomePage() {
                       <div>
                         <div className="font-medium">AI Tools for Building and Design Resource:</div>
                         <p className="text-sm text-gray-600">
-                          <Link href="/ai-tools-page">🔗 AI Tools for Design, Prototyping and Coding</Link>
+                          <a href="/ai-tools-page">🔗 AI Tools for Design, Prototyping and Coding</a>
                         </p>
                       </div>
                     </div>
-                    {/*  <div className="flex gap-3">
-                      <div className="font-mono text-sm text-gray-500">•</div>
-                      <div>
-                        <div className="font-medium">Web A.I. Agent Samples:</div>
-                        <p className="text-sm text-gray-600">
-                          <a target="_blank" href="https://aitoolset.github.io/aihubkayakviews/" rel="noreferrer">
-                            🔗 Summary from A.I. Agent for Kayaks : Google Gemini A.I.
-                          </a>
-                        </p>
-                      </div>
-                    </div>*/}
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
