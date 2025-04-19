@@ -173,6 +173,35 @@ export default function HomePage() {
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
+                        <div className="font-medium">SnackBucks : iOS SwiftUI App</div>
+                        <p className="text-sm text-gray-600">
+                          <a
+                            target="_blank"
+                            href="https://apps.apple.com/gb/app/snackbucks/id6743122576"
+                            rel="noreferrer"
+                          >
+                            🔗 Price comparison app for foods in various countries.
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">Turbotide Trivia : iOS Flutter App</div>
+                        <p className="text-sm text-gray-600">
+                          <a
+                            target="_blank"
+                            href="https://apps.apple.com/us/app/turbotide-trivia/id6744722795"
+                            rel="noreferrer">
+                            🔗 Speedboat trivia game with multiple spec categories.
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
                         <div className="font-medium">E-Moto Updates : iOS Swift App : </div>
                         <p className="text-sm text-gray-600">
                           <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">
