@@ -205,6 +205,10 @@ export default function HomePage() {
                           >
                             🔗 Speedboat trivia game with multiple spec categories.
                           </a>
+                          <br />
+                          <a target="_blank" href="https://github.com/leapdeck/TurbotideTrivia" rel="noreferrer">
+                            Opensource on Github
+                          </a>
                         </p>
                       </div>
                     </div>
