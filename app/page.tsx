@@ -168,8 +168,8 @@ export default function HomePage() {
                             🔗 Soccer trivia game with multiple categories.
                           </a>
                           <br />
-                          <a target="_blank" href="https://github.com/leapdeck/TopBinTrivia" rel="noreferrer">
-                            Opensource on Github
+                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/TopBinTrivia" rel="noreferrer">
+                          [Topbin Trivia]
                           </a>
                         </p>
                       </div>
@@ -187,8 +187,8 @@ export default function HomePage() {
                             🔗 Price comparison app for foods in various countries.
                           </a>
                           <br />
-                          <a target="_blank" href="https://github.com/leapdeck/SnackBucks" rel="noreferrer">
-                            Opensource on Github
+                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/SnackBucks" rel="noreferrer">
+                            [SnackBucks]
                           </a>
                         </p>
                       </div>
@@ -206,8 +206,8 @@ export default function HomePage() {
                             🔗 Speedboat trivia game with multiple spec categories.
                           </a>
                           <br />
-                          <a target="_blank" href="https://github.com/leapdeck/TurbotideTrivia" rel="noreferrer">
-                            Opensource on Github
+                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/TurbotideTrivia" rel="noreferrer">
+                            [Turbotide Trivia]
                           </a>
                         </p>
                       </div>
