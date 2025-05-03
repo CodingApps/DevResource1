@@ -167,6 +167,10 @@ export default function HomePage() {
                           >
                             🔗 Soccer trivia game with multiple categories.
                           </a>
+                          <br />
+                          <a target="_blank" href="https://github.com/leapdeck/TopBinTrivia" rel="noreferrer">
+                            Opensource on Github
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -182,6 +186,10 @@ export default function HomePage() {
                           >
                             🔗 Price comparison app for foods in various countries.
                           </a>
+                          <br />
+                          <a target="_blank" href="https://github.com/leapdeck/SnackBucks" rel="noreferrer">
+                            Opensource on Github
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -193,7 +201,8 @@ export default function HomePage() {
                           <a
                             target="_blank"
                             href="https://apps.apple.com/us/app/turbotide-trivia/id6744722795"
-                            rel="noreferrer">
+                            rel="noreferrer"
+                          >
                             🔗 Speedboat trivia game with multiple spec categories.
                           </a>
                         </p>
