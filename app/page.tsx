@@ -289,15 +289,7 @@ export default function HomePage() {
                 </div>
                 <div className="mb-6">
                   <p className="mb-4">
-                    I also developed Open Source projects for both iOS and Android when possible. Several projects are
-                    here to view, in addition to an Open Source app in the iOS App Store :{" "}
-                    <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">"📱 E-Moto Updates"</a>.
-                    <br />
-                    [GitHub :{" "}
-                    <a target="_blank" href="https://github.com/CodingApps/E-BikeUpdatesV1" rel="noreferrer">
-                      🔗 https://github.com/CodingApps/E-BikeUpdatesV1
-                    </a>
-                    ]
+                    I also developed Opensource projects for both iOS and Android when possible. Several projects are above to view, in addition in the iOS App Store. 
                   </p>
                   <Button className="w-full bg-gray-600 hover:bg-gray-700"></Button>
                 </div>
