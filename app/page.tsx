@@ -215,10 +215,14 @@ export default function HomePage() {
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
-                        <div className="font-medium">E-Moto Updates : iOS Swift App : </div>
+                        <div className="font-medium">E-Motobike Updates : iOS Swift App : </div>
                         <p className="text-sm text-gray-600">
                           <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">
                             🔗 Electric motorcycle updates, specs and image backgrounds.
+                          </a>
+                          <br />
+                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/EBikeUpdates" rel="noreferrer">
+                            [EMotobike Updates]
                           </a>
                         </p>
                       </div>
