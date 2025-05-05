@@ -215,7 +215,7 @@ export default function HomePage() {
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
-                        <div className="font-medium">E-Motobike Updates : iOS Swift App : </div>
+                        <div className="font-medium">E-Motobike Updates : iOS Swift App </div>
                         <p className="text-sm text-gray-600">
                           <a href="https://apps.apple.com/sa/app/e-motobike-updates/id1644648261">
                             🔗 Electric motorcycle updates, specs and image backgrounds.
@@ -227,12 +227,23 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                      <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">Opensource resource for Swift and Flutter apps </div>
+                        <p className="text-sm text-gray-600">
+                          <a href="https://github.com/leapdeck">
+                            🔗 leapdeck : Opensource SwiftUI and Flutter apps to customize.
+                          </a>
+                        </p>
+                      </div>
+                    </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
                         <div className="font-medium">AI Tools for Building and Design Resource:</div>
                         <p className="text-sm text-gray-600">
-                          <a target="_blank" href="https://aitoolset.github.io/aitools/" rel="noreferrer">
+                          <a target="_blank" href="/ai-resources" rel="noreferrer">
                             🔗 AI Tools for Design, Prototyping and Coding
                           </a>
                         </p>
