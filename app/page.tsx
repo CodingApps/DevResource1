@@ -137,13 +137,17 @@ export default function HomePage() {
                           >
                             🔗 Learn A.I. and LLM terms, with an LLM training intro.
                           </a>
+                          <br />
+                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/AIDelvePad" rel="noreferrer">
+                          [AI DelvePad]
+                          </a>
                         </p>
                       </div>
                     </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
-                        <div className="font-medium">AI Model ViewScope : iOS SwiftUI App</div>
+                        <div className="font-medium">AI Model Viewscope : iOS SwiftUI App</div>
                         <p className="text-sm text-gray-600">
                           <a
                             target="_blank"
@@ -151,6 +155,10 @@ export default function HomePage() {
                             rel="noreferrer"
                           >
                             🔗 Explore LLM models and calculate GPU RAM needed.
+                          </a>
+                          <br />
+                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/AIViewScope" rel="noreferrer">
+                          [AI Model Viewscope]
                           </a>
                         </p>
                       </div>
