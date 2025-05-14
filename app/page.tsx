@@ -249,9 +249,9 @@ export default function HomePage() {
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
-                        <div className="font-medium">AI Tools for Building and Design Resource:</div>
+                        <div className="font-medium">StackPad : AI Tools for Building and Design Resource:</div>
                         <p className="text-sm text-gray-600">
-                          <a target="_blank" href="/ai-resources" rel="noreferrer">
+                          <a target="_blank" href="http://stackpadai.vercel.app" rel="noreferrer">
                             🔗 AI Tools for Design, Prototyping and Coding
                           </a>
                         </p>
