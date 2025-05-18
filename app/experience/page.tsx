@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { Card } from "@/components/ui/card"
 import { ArrowLeft } from "lucide-react"
+import { Briefcase, GraduationCap, Activity } from "lucide-react"
 
 export default function ExperiencePage() {
   const experiences = [
@@ -20,7 +21,7 @@ export default function ExperiencePage() {
       period: "March 2014 - December 2024",
       description:
         "Bolstered coverage for Automation more than 40% with Selenium WebDriver automations in Java within the year, with our group of QA's combined automation for several areas. Primarily with Selenium WebDriver automations in Java, using Cucumber as a BDD framework. Was done with a CI/CD pipeline, deployed with Jenkins. Contributed to deployments, where velocity increased to 25 points per sprint for projects like OBP updates and Post Go Live Services. Contributed to providing Dev group resources for CoPilot usage on IDE's, during U.S. Bank's A.I. launch of internal tools. Earlier in the company supported hardware including Ingenico payment card readers, iPads, Android, Moby, Poynt and Elo devices for QA of iOS and Android devices.",
-      technologies: ["Java", "Selenium", "Cucumber", "Jenkins", "CI/CD", "iOS", "Android", "GitHub CoPilot"],
+      technologies: ["Java", "Selenium", "Cucumber", "IntelliJ", "Postman", "Jenkins", "CI/CD", "iOS", "Android", "GitHub CoPilot"],
     },
     {
       title: "Product Prototyping",
@@ -28,7 +29,7 @@ export default function ExperiencePage() {
       period: "December 2013 - March 2014",
       description:
         "Assisted ATAP lab with getting feedback on upcoming products. Collected feedback on mobile modular product at various locations, which was compiled and sent to Google developers.",
-      technologies: ["Modular Wireless", "A/B Testing", "Mobile Prototyping", ""],
+      technologies: ["Modular Wireless", "A/B Testing", "Mobile Prototyping"],
     },
     {
       title: "Web Support and Development",
@@ -81,19 +82,76 @@ export default function ExperiencePage() {
           ))}
         </div>
 
+        <h2 className="text-2xl font-bold mt-12 mb-6 text-center">Additional Info</h2>
+
+        <div className="space-y-6">
+          {/* Other Experience Card */}
+          <Card className="p-6 bg-white/80 backdrop-blur-sm">
+            <div className="flex items-center gap-3 mb-4">
+              <Briefcase className="h-6 w-6 text-blue-600" />
+              <h2 className="text-xl font-semibold">Other Experience</h2>
+            </div>
+            <p className="mb-4 text-gray-700">
+              Have provided support for youth coding organizations in the Bay Area. Also have developed an iOS app for
+              Electric Vehicles, worked for university newspaper, university facilities management and business tech
+              hub.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Volunteer</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">iOS Development</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">University Publication</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Facilities Management</span>
+            </div>
+          </Card>
+
+          {/* Education Card */}
+          <Card className="p-6 bg-white/80 backdrop-blur-sm">
+            <div className="flex items-center gap-3 mb-4">
+              <GraduationCap className="h-6 w-6 text-blue-600" />
+              <h2 className="text-xl font-semibold">Education</h2>
+            </div>
+            <ul className="space-y-2 mb-4 text-gray-700">
+              <li>• University of Arizona: 1993-1995</li>
+              <li>• CCSF: 1995-1997 - Networking Certificate</li>
+              <li>• SFSU: 2021 towards CS Degree</li>
+            </ul>
+            <div className="mt-4">
+              <h3 className="text-lg font-medium mb-2">Skills</h3>
+              <ul className="space-y-1 mb-4 text-gray-700">
+                <li>• Spoken Languages: English/Spanish</li>
+                <li>• Programming: Java, Python, Swift iOS, SwiftUI iOS, Selenium, Java Android, Javascript, Flutter and C</li>
+                <li>• Typing: 60+ WPM</li>
+              </ul>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">University of Arizona</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">CCSF</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">SFSU</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Networking</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Computer Science</span>
+            </div>
+            <div>
+             <br />
+             </div>
+             <p className="text-gray-700 italic">References available upon request.</p>
+          </Card>
+
+          {/* Activities Card */}
+          <Card className="p-6 bg-white/80 backdrop-blur-sm">
+            <div className="flex items-center gap-3 mb-4">
+              <Activity className="h-6 w-6 text-blue-600" />
+              <h2 className="text-xl font-semibold">Activities</h2>
+            </div>
+            <p className="mb-4 text-gray-700">
+              Enjoying live music, volunteering in the Bay Area, hiking, kayaking, running marathons and football games.
+            </p>
+          </Card>
+        </div>
         <div className="mt-10 text-center">
-          <p className="text-gray-700">
-            For a more detailed professional history, please visit my{" "}
-            <a
-              href="https://www.linkedin.com/in/rickwaalders/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              LinkedIn profile
-            </a>
-            .
-          </p>
+          <Link href="/" className="inline-flex items-center text-blue-600 hover:underline">
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Return to main page
+          </Link>
         </div>
       </div>
     </div>

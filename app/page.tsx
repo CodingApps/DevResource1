@@ -112,9 +112,9 @@ export default function HomePage() {
                     <br />
                   </div>
                   <div className="mt-2">
-                    ✨ <b> Experience : </b>{" "}
+                    ✨ <b> Company Summary: </b>{" "}
                     <Link href="/experience" className="text-blue-600 hover:underline">
-                      Click to View
+                      [Click for Experience]
                     </Link>
                   </div>
                 </div>
