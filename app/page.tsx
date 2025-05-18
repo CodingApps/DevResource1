@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { HostSidebar } from "@/components/host-sidebar"
@@ -91,7 +92,7 @@ export default function HomePage() {
               <div className="p-6">
                 {/* Event Title */}
                 <h1 className="mb-6 text-2xl font-bold">
-                  🎚️ Overview of Projects 🏞️: Open-Source, ML, Mobile Dev, Java, Python
+                  🛰️ Overview of Projects 🏞️: Open-Source, ML, Mobile Dev, Java, Python
                 </h1>
                 {/* Agenda Section */}
                 <p className="mb-4">
@@ -105,8 +106,17 @@ export default function HomePage() {
                   <br />
                 </div>
                 <div className="mt-8">
-                  ✨ <b> Skills : </b> Java, Selenium, Node.js, Android Java, Javascript, iOS Swift, Python, Git
+                  ✨ <b> Skills : </b>Java, Python, Selenium, Android Java, Javascript, iOS Swift, Flutter, Git
                   <div></div>
+                  <div>
+                    <br />
+                  </div>
+                  <div className="mt-2">
+                    ✨ <b> Experience : </b>{" "}
+                    <Link href="/experience" className="text-blue-600 hover:underline">
+                      Click to View
+                    </Link>
+                  </div>
                 </div>
                 <div>
                   <br />
@@ -138,8 +148,9 @@ export default function HomePage() {
                             🔗 Learn A.I. and LLM terms, with an LLM training intro.
                           </a>
                           <br />
-                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/AIDelvePad" rel="noreferrer">
-                          [AI DelvePad]
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/AIDelvePad" rel="noreferrer">
+                            [AI DelvePad]
                           </a>
                         </p>
                       </div>
@@ -157,8 +168,9 @@ export default function HomePage() {
                             🔗 Explore LLM models and calculate GPU RAM needed.
                           </a>
                           <br />
-                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/AIViewScope" rel="noreferrer">
-                          [AI Model Viewscope]
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/AIViewScope" rel="noreferrer">
+                            [AI Model Viewscope]
                           </a>
                         </p>
                       </div>
@@ -176,8 +188,9 @@ export default function HomePage() {
                             🔗 Soccer trivia game with multiple categories.
                           </a>
                           <br />
-                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/TopBinTrivia" rel="noreferrer">
-                          [Topbin Trivia]
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/TopBinTrivia" rel="noreferrer">
+                            [Topbin Trivia]
                           </a>
                         </p>
                       </div>
@@ -195,7 +208,8 @@ export default function HomePage() {
                             🔗 Price comparison app for foods in various countries.
                           </a>
                           <br />
-                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/SnackBucks" rel="noreferrer">
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/SnackBucks" rel="noreferrer">
                             [SnackBucks]
                           </a>
                         </p>
@@ -214,7 +228,8 @@ export default function HomePage() {
                             🔗 Speedboat trivia game with multiple spec categories.
                           </a>
                           <br />
-                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/TurbotideTrivia" rel="noreferrer">
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/TurbotideTrivia" rel="noreferrer">
                             [Turbotide Trivia]
                           </a>
                         </p>
@@ -229,13 +244,14 @@ export default function HomePage() {
                             🔗 Electric motorcycle updates, specs and image backgrounds.
                           </a>
                           <br />
-                          Opensource Github Repo : <a target="_blank" href="https://github.com/leapdeck/EBikeUpdates" rel="noreferrer">
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/EBikeUpdates" rel="noreferrer">
                             [EMotobike Updates]
                           </a>
                         </p>
                       </div>
                     </div>
-                      <div className="flex gap-3">
+                    <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
                         <div className="font-medium">Opensource resource for Swift and Flutter apps </div>
@@ -297,7 +313,8 @@ export default function HomePage() {
                 </div>
                 <div className="mb-6">
                   <p className="mb-4">
-                    I also developed Opensource projects for both iOS and Android when possible. Several projects are above to view, in addition in the iOS App Store. 
+                    I also developed Opensource projects for both iOS and Android when possible. Several projects are
+                    above to view, in addition in the iOS App Store.
                   </p>
                   <Button className="w-full bg-gray-600 hover:bg-gray-700"></Button>
                 </div>
