@@ -82,9 +82,9 @@ export default function HomePage() {
         {/* Content Layout */}
         <div className="flex flex-col lg:flex-row lg:justify-center lg:gap-8">
           {/* Left Sidebar - Hidden on mobile, shown on desktop */}
-          <div className="hidden lg:block lg:w-64 lg:flex-shrink-0">
+          {/*  <div className="hidden lg:block lg:w-64 lg:flex-shrink-0">
             <HostSidebar />
-          </div>
+          </div> */}
 
           {/* Main Content - Centered on desktop */}
           <div className="flex-1 lg:max-w-3xl">
@@ -360,7 +360,9 @@ export default function HomePage() {
               </div>
             </Card>
           </div>
-
+          <div className="hidden lg:block lg:w-64 lg:flex-shrink-0">
+            <HostSidebar />
+          </div>
           {/* Right Sidebar - Shown on mobile, hidden on desktop */}
           <div className="mt-6 lg:hidden">
             <HostSidebar />
