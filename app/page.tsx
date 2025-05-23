@@ -123,18 +123,6 @@ export default function HomePage() {
                 </div>
                 <div className="mt-8">
                   <h2 className="text-lg font-semibold mb-4">✨ Projects:</h2>
-                  <div className="space-y-4">
-                    <div className="flex gap-3">
-                      <div className="font-mono text-sm text-gray-500">•</div>
-                      <div>
-                        <div className="font-medium">ML, AI and LLM Resource :</div>
-                        <p className="text-sm text-gray-600">
-                          <a target="_blank" href="http://aitoolset.github.io" rel="noreferrer">
-                            🔗 http://aitoolset.github.io
-                          </a>
-                        </p>
-                      </div>
-                    </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -155,6 +143,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                    <div>
+                    <br />
+                   </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -174,6 +165,9 @@ export default function HomePage() {
                           </a>
                         </p>
                       </div>
+                    </div>
+                    <div>
+                    <br />
                     </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
@@ -195,6 +189,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                    <div>
+                    <br />
+                    </div>                    
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -214,6 +211,9 @@ export default function HomePage() {
                           </a>
                         </p>
                       </div>
+                    </div>
+                    <div>
+                    <br />
                     </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
@@ -235,6 +235,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                    <div>
+                    <br />
+                    </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -251,6 +254,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                    <div>
+                    <br />
+                    </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -262,6 +268,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                    <div>
+                    <br />
+                    </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -269,6 +278,21 @@ export default function HomePage() {
                         <p className="text-sm text-gray-600">
                           <a target="_blank" href="http://stackpadai.vercel.app" rel="noreferrer">
                             🔗 AI Tools for Design, Prototyping and Coding
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                    <br />
+                    </div>
+                    <div className="space-y-4">
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">ML, AI and LLM Resource :</div>
+                        <p className="text-sm text-gray-600">
+                          <a target="_blank" href="http://aitoolset.github.io" rel="noreferrer">
+                            🔗 http://aitoolset.github.io
                           </a>
                         </p>
                       </div>

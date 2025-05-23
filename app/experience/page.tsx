@@ -10,10 +10,10 @@ export default function ExperiencePage() {
     {
       title: "3D Printing Support and Optimization",
       company: "Velocitek",
-      period: "May 2025 - Present",
+      period: "April 2025 - May",
       description:
-        "Assisting with hardware support and installation for 3D-Printing hardware. Contributing to process to reduce errors on final printed results. Calibrating printing with 3D-Printing Software tools to optimize process.",
-      technologies: ["3D Printing", "Hardware Support", "3D Software Tools"],
+        "Assisting with hardware support and installation for 3D-Printing hardware. Utilizing PrusaSlicer 3D-Printer Software to improve results on final models printed. Calibrating printing with 3D-Printing Software tools to optimize process.",
+      technologies: ["3D Printing", "Hardware Support", "3D Software Tools", "PrusaSlicer"],
     },
     {
       title: "Automation Engineer and Mobile QA",
