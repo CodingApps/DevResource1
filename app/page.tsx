@@ -262,7 +262,7 @@ export default function HomePage() {
                       <div>
                         <div className="font-medium">Opensource resource for Swift and Flutter apps </div>
                         <p className="text-sm text-gray-600">
-                          <a href="https://github.com/leapdeck">
+                          <a href="https://leapdeck.org">
                             🔗 leapdeck : Opensource SwiftUI and Flutter apps to customize.
                           </a>
                         </p>
