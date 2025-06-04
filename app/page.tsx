@@ -237,6 +237,24 @@ export default function HomePage() {
                     </div>
                     <div>
                     <br />
+                     </div>
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">SailSizeCalc : iOS Flutter App</div>
+                        <p className="text-sm text-gray-600">
+                          <a
+                            target="_blank"
+                            href="https://apps.apple.com/us/app/sailsizecalc/id6746686907"
+                            rel="noreferrer"
+                          >
+                            🔗 Sail size measurement based on calculated field entries.
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                    <br />
                     </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
