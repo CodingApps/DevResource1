@@ -253,6 +253,22 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                    <br />
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">PlaybackCalc : iOS Flutter App</div>
+                        <p className="text-sm text-gray-600">
+                          <a
+                            target="_blank"
+                            href="https://apps.apple.com/us/app/playbackcalc/id6747052055"
+                            rel="noreferrer"
+                          >
+                            🔗 Audio book and video time calculator based on playback speed.
+                          </a>
+                        </p>
+                      </div>
+                    </div>
                     <div>
                     <br />
                     </div>
