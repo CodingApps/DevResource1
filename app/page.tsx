@@ -253,7 +253,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
+                     <div>
                     <br />
+                     </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
