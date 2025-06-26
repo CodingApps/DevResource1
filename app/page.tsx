@@ -271,8 +271,9 @@ export default function HomePage() {
                         </p>
                       </div>
                     </div>
-                    
+                    <div>
                     <br />
+                    </div>
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -289,8 +290,9 @@ export default function HomePage() {
                       </div>
                     </div>
                     <div>
-
                     <br />
+                    </div>
+
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -309,6 +311,7 @@ export default function HomePage() {
                     <div>
                     <br />
                     </div>
+
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -328,6 +331,7 @@ export default function HomePage() {
                     <div>
                     <br />
                     </div>
+
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -342,6 +346,7 @@ export default function HomePage() {
                     <div>
                     <br />
                     </div>
+
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>
                       <div>
@@ -356,6 +361,7 @@ export default function HomePage() {
                     <div>
                     <br />
                     </div>
+                    
                     <div className="space-y-4">
                     <div className="flex gap-3">
                       <div className="font-mono text-sm text-gray-500">•</div>

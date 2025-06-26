@@ -2,8 +2,7 @@
 
 import Link from "next/link"
 import { Card } from "@/components/ui/card"
-import { ArrowLeft } from "lucide-react"
-import { Briefcase, GraduationCap, Activity } from "lucide-react"
+import { ArrowLeft, Briefcase, GraduationCap, Activity } from "lucide-react"
 
 export default function ExperiencePage() {
   const experiences = [
@@ -21,7 +20,18 @@ export default function ExperiencePage() {
       period: "March 2014 - December 2024",
       description:
         "Bolstered coverage for Automation more than 40% with Selenium WebDriver automations in Java within the year, with our group of QA's combined automation for several areas. Primarily with Selenium WebDriver automations in Java, using Cucumber as a BDD framework. Was done with a CI/CD pipeline, deployed with Jenkins. Contributed to deployments, where velocity increased to 25 points per sprint for projects like OBP updates and Post Go Live Services. Contributed to providing Dev group resources for CoPilot usage on IDE's, during U.S. Bank's A.I. launch of internal tools. Earlier in the company supported hardware including Ingenico payment card readers, iPads, Android, Moby, Poynt and Elo devices for QA of iOS and Android devices.",
-      technologies: ["Java", "Selenium", "Cucumber", "IntelliJ", "Postman", "Jenkins", "CI/CD", "iOS", "Android", "GitHub CoPilot"],
+      technologies: [
+        "Java",
+        "Selenium",
+        "Cucumber",
+        "IntelliJ",
+        "Postman",
+        "Jenkins",
+        "CI/CD",
+        "iOS",
+        "Android",
+        "GitHub CoPilot",
+      ],
     },
     {
       title: "Product Prototyping",
@@ -82,10 +92,9 @@ export default function ExperiencePage() {
           ))}
         </div>
 
-        <h2 className="text-2xl font-bold mt-12 mb-6 text-center">Additional Info</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-6 text-center">Additional Information</h2>
 
         <div className="space-y-6">
-          {/* Other Experience Card */}
           <Card className="p-6 bg-white/80 backdrop-blur-sm">
             <div className="flex items-center gap-3 mb-4">
               <Briefcase className="h-6 w-6 text-blue-600" />
@@ -104,7 +113,6 @@ export default function ExperiencePage() {
             </div>
           </Card>
 
-          {/* Education Card */}
           <Card className="p-6 bg-white/80 backdrop-blur-sm">
             <div className="flex items-center gap-3 mb-4">
               <GraduationCap className="h-6 w-6 text-blue-600" />
@@ -119,7 +127,9 @@ export default function ExperiencePage() {
               <h3 className="text-lg font-medium mb-2">Skills</h3>
               <ul className="space-y-1 mb-4 text-gray-700">
                 <li>• Spoken Languages: English/Spanish</li>
-                <li>• Programming: Java, Python, Swift iOS, SwiftUI iOS, Selenium, Java Android, Javascript, Flutter and C</li>
+                <li>
+                  • Programming: Java, Python, Swift iOS, SwiftUI iOS, Selenium, Java Android, Javascript, Flutter and C
+                </li>
                 <li>• Typing: 60+ WPM</li>
               </ul>
             </div>
@@ -130,13 +140,11 @@ export default function ExperiencePage() {
               <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Networking</span>
               <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Computer Science</span>
             </div>
-            <div>
-             <br />
-             </div>
-             <p className="text-gray-700 italic">References available upon request.</p>
+            <div className="mt-4">
+              <p className="text-gray-700 italic">References available upon request.</p>
+            </div>
           </Card>
 
-          {/* Activities Card */}
           <Card className="p-6 bg-white/80 backdrop-blur-sm">
             <div className="flex items-center gap-3 mb-4">
               <Activity className="h-6 w-6 text-blue-600" />
@@ -147,6 +155,7 @@ export default function ExperiencePage() {
             </p>
           </Card>
         </div>
+
         <div className="mt-10 text-center">
           <Link href="/" className="inline-flex items-center text-blue-600 hover:underline">
             <ArrowLeft className="w-4 h-4 mr-2" />
