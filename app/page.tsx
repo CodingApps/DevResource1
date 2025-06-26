@@ -266,7 +266,42 @@ export default function HomePage() {
                             href="https://apps.apple.com/us/app/playbackcalc/id6747052055"
                             rel="noreferrer"
                           >
-                            🔗 Audio book and video time calculator based on playback speed.
+                            🔗 Soccer trivia game with multiple categories
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <br />
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">E-BikeWallpapers : iOS Flutter App</div>
+                        <p className="text-sm text-gray-600">
+                          <a
+                            target="_blank"
+                            href="https://apps.apple.com/us/app/ebikewallpapers/id6747408546"
+                            rel="noreferrer"
+                          >
+                            🔗 Electric Bike Mobile-phone wallpapers and bike specs..
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+
+                    <br />
+                    <div className="flex gap-3">
+                      <div className="font-mono text-sm text-gray-500">•</div>
+                      <div>
+                        <div className="font-medium">SeaSnorkel Trivia : iOS Flutter App</div>
+                        <p className="text-sm text-gray-600">
+                          <a
+                            target="_blank"
+                            href="https://apps.apple.com/us/app/seasnorkel-trivia/id6747751140"
+                            rel="noreferrer"
+                          >
+                            🔗 Ocean-based trivia game about snorkeling with multiple categories.
                           </a>
                         </p>
                       </div>
