@@ -69,7 +69,7 @@ export default function HomePage() {
         <div className="w-full flex justify-center mb-8">
           <div className="w-full lg:w-[35%]">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/isolandscape3d-zha6YeGjgUQBU5RkbeBnGo52yLUYCv.png"
+              src="/images/design-mode/isolandscape3d.png"
               alt="Isometric 3D illustration of kayakers paddling down a winding river through a forest"
               width={600}
               height={200}
@@ -266,7 +266,7 @@ export default function HomePage() {
                             href="https://apps.apple.com/us/app/playbackcalc/id6747052055"
                             rel="noreferrer"
                           >
-                            🔗 Soccer trivia game with multiple categories
+                            🔗 App calculating playback time based on playback speed 
                           </a>
                         </p>
                       </div>
@@ -304,6 +304,11 @@ export default function HomePage() {
                             rel="noreferrer"
                           >
                             🔗 Ocean-based trivia game about snorkeling with multiple categories.
+                          </a>
+                          <br />
+                          Opensource Github Repo :{" "}
+                          <a target="_blank" href="https://github.com/leapdeck/SeaSnorkelTrivia" rel="noreferrer">
+                            [SeaSnorkel Trivia]
                           </a>
                         </p>
                       </div>

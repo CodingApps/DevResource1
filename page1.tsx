@@ -66,7 +66,7 @@ export default function EventPage() {
         <div className="flex flex-col lg:flex-row lg:gap-8">
           <div className="w-full mb-8">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/isolandscape3d-zha6YeGjgUQBU5RkbeBnGo52yLUYCv.png"
+              src="/images/design-mode/isolandscape3d.png"
               alt="Isometric 3D illustration of kayakers paddling down a winding river through a forest"
               width={600}
               height={200}
